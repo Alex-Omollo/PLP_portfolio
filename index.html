@@ -37,6 +37,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+</head>
 <body>
         <!-- Navbar Section Start -->
 
@@ -73,33 +74,440 @@
      <!--  Head Section Start -->
 
     <div class="navbar" id="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="container-fluid" id="home">
-            <div class="row head" >
-                <div class="col-sm-6 name">
-                    <h3>I'm</h3>
-                    <h1>Alex Omollo</h1>
-                    <h3 style="color:#d7681d"><span id="element"></span></h3>
-                    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="container-fluid" id="home">
+        <div class="row head" >
+            <div class="col-sm-6 name">
+                <h3>I'm</h3>
+                <h1>Alex Omollo</h1>
+                <h3 style="color:#d7681d"><span id="element"></span></h3>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-                    <script>
-                        var typed = new Typed('#element', {
-                          strings: ['<i>FullStack Devloper</i>','<i>Web Designer</i>', '<i>Web Developer</i>','<i> Front End Developer</i>', '<i> Back End Developer</i>'],
-                          typeSpeed: 50,
-                          loop:true
-                        });
-                      </script>
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['<i>FullStack Devloper</i>','<i>Web Designer</i>', '<i>Web Developer</i>','<i> Front End Developer</i>', '<i> Back End Developer</i>'],
+                        typeSpeed: 50,
+                        loop:true
+                    });
+                </script>
+            </div>
+            <div class="col-sm-6 img">
+                <img src="img/profile.jpg" class="img-fluid" style="border-radius: 20%;">
+            </div>
+        </div>
+    </div>
+
+           <!-- Intro Section Start -->
+    <div class="container-fluid" id="about">
+        <div class="row" style="margin-top: 8%;">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+                <img src="img/profile2.jpg" class="img-fluid w3-card-2" style="border-radius: 5%;">
+            </div>
+            <div class="col-sm-6" style="margin: 5% 2%;">
+                <h5>MY INTRO</h5>
+                <h2>About Me</h2>
+                <p style="text-align: left;">
+                    I'm a full-stack developer with a passion for backend development, scalable software architecture, and solving real-world challenges through code. My tools of choice are Python, Django, and RESTful APIs, and I’m actively exploring technologies like Kubernetes, Redis, and cloud platforms.
+                </p>
+                <table class="table table-borderless">
+                    <tr>
+                        <th style="width: 5rem;">Name</th>
+                        <td style="width: 2rem;">:</td>
+                        <td>Alex Omollo</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td>:</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <th>From</th>
+                        <td>:</td>
+                        <td>Kisumu, Kenya</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>:</td>
+                        <td>okechalex22@gmail.com</td>
+                    </tr>
+                </table>
+                <button class="down-btn"><a href="resume.pdf" class="down_btn ">Download CV</a>
+                </button>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+
+    <div class="container" id="skills">
+        <!-- Main Heading -->
+        <div class="row" id="Skill">
+            <div class="col-sm-12">
+                <center>
+                    <h5>MY SKILLS</h5>
+                </center>
+            </div>
+        </div>
+        <div class="main-title" data-aos="zoom-in">
+            <h1 style="font-family:'Roboto Slab', serif;">My Expertise Area</h1>
+        </div>
+        <div class="row">
+            <!-- Left Section -->
+            <section class="col" data-aos="fade-right">
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">C</div>
+                        <div class="progress-bar" value="91%">
+                            <div class="progress-line" style="max-width: 91%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="94%">
+                            <div class="progress-line" style="max-width: 94%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="83%">
+                            <div class="progress-line" style="max-width: 83%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress-bar" value="88%">
+                            <div class="progress-line" style="max-width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">Python</div>
+                        <div class="progress-bar" value="74%">
+                            <div class="progress-line" style="max-width: 74%"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 img">
-                    <img src="img/profile.jpg" class="img-fluid" style="border-radius: 50%;">
+            </section>
+
+            <!-- Right Section -->
+            <section class="col" data-aos="fade-left">
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">Node.js</div>
+                        <div class="progress-bar" value="63%">
+                            <div class="progress-line" style="max-width: 73%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">Express.js</div>
+                        <div class="progress-bar" value="91%">
+                            <div class="progress-line" style="max-width: 76%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">MongoDB</div>
+                        <div class="progress-bar" value="86%">
+                            <div class="progress-line" style="max-width: 91%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">Mysql</div>
+                        <div class="progress-bar" value="74%">
+                            <div class="progress-line" style="max-width: 74%"></div>
+                        </div>
+                    </div>
+
                 </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+
+    <div class="container">
+        <div class="row" style="margin-top: 5%;" id="Portfolio">
+
+    <div class="container" id="projects">
+        <div class="row" style="margin-top: 5%;">
+
+            <div class="col-sm-12">
+                <center>
+                    <h5>MY PORTFOLIO</h5>
+                </center>
+            </div>
+        </div>
+        <div class="main-title">
+            <h1 style="font-family:'Roboto Slab', serif;">Some of my most recent projects</h1>
+        </div>
+        <div class="row project">
+            <div class="pro_card col-sm-12" style="background-color: #eef3f8;padding: 3% 2%;margin-bottom: 5%;">
+                <div class="container-fluid row" style="margin: 0;padding: 0%;">
+                    <div class="col-sm-6">
+                        <h4 style="color:rgb(39, 140, 242);font-weight: 700;font-size: 2rem;">Secure Password Manager</h4>
+                        <div class="col-sm-12" style="margin: 0;padding: 5px 0%;">
+                            <li class="w3-tag w3-blue w3-large">Python</li>
+                            <li class="w3-tag w3-blue w3-large">Tkinter</li>
+                            <li class="w3-tag w3-blue w3-large">Cryptography</li>
+                            <div class="col-sm-12"
+                                style="margin: 0 0 3% 0;padding:15px 0%;color: #747c84;font-family: 'Montserrat', sans-serif;">
+                                A GUI-based password generator and encrypted storage tool built with Python and Tkinter.
+                                It allows users to generate strong passwords, save them securely using symmetric encryption, and view stored credentials safely.
+                                The application features a user-friendly interface, password strength evaluation, and secure encryption using the Fernet symmetric encryption algorithm.
+                                It is designed to help users manage their passwords securely and conveniently.
+                            </div>
+                            <button class="read-more"><a href="https://github.com/Alex-Omollo/passwordgenerator">Read
+                                    More <i class='bx bxl-github'></i></a></button>
+                            <button class="read-more"><a
+                                    href="https://passwordgenerator-dm.streamlit.app/">Preview <i
+                                        class='bx bx-link-external'></i></a></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 style="color:rgb(39, 140, 242);font-weight: 700;font-size: 2rem;">Weather Monitor System
+                        </h4>
+                        <div class="col-sm-12" style="margin: 0 0 3% 0;padding: 5px 0%;">
+                            <li class="w3-tag w3-blue w3-large">Python</li>
+                            <li class="w3-tag w3-blue w3-large">Openweather API</li>
+                            <div class="col-sm-12"
+                                style="margin: 0;padding:15px 0%;color: #747c84;font-family: 'Montserrat', sans-serif;">
+                                A command-line interface (CLI) tool for cyclists and outdoor users that provides current and forecasted weather data 
+                                for any global location. It helps users anticipate conditions and plan their routes accordingly.
+                                The tool fetches weather data from the OpenWeather API, allowing users to check current weather conditions and forecasts for their desired locations.
+                                It is designed to assist cyclists and outdoor enthusiasts in making informed decisions based on weather conditions.
+                            </div>
+                            <button class="read-more"><a
+                                    href="https://github.com/code50/71961064/tree/main/project">Read More <i
+                                        class='bx bxl-github'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Service Section -->
+    <div class="container-fluid" style="background-color:#eff1f4 ;">
+        <div class="row" style="margin-top: 5%;" data-aos="zoomIn" id="Service">
+            <div class="col-sm-12">
+                <center>
+                    <h5>WHAT I DO?</h5>
+                </center>
+            </div>
+        </div>
+        <div class="main-title" data-aos="zoom-in">
+            <h1 style="font-family:'Roboto Slab', serif;">Available For Hire</h1>
+        </div>
+        <div class="container-fluid" data-aos="fade-up">
+            <section class="services">
+                <div class="section-content">
+                    <div class="single-service">
+                        <div class="single-service-wrapper">
+                            <div class="service-icon">
+                                <div class="service-icon-wrapper" style="background:#f2fde4 ;">
+                                    <i class='bx bx-laptop' style="color:#61d800 ;"></i>
+                                </div>
+                            </div>
+                            <h3 class="single-service-heading">Web Development</h3>
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <div class="single-service-wrapper">
+                            <div class="service-icon">
+                                <div class="service-icon-wrapper" style="background : #f7eae7">
+                                    <i class="fas fa-paint-brush" style="color: #d7681d;"></i>
+                                </div>
+                            </div>
+                            <h3 class="single-service-heading">Web Design</h3>
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <div class="single-service-wrapper">
+                            <div class="service-icon">
+                                <div class="service-icon-wrapper" style="background: #fee5f3;">
+                                    <i class="bx bxl-angular" style="color:#d7009f"></i>
+                                </div>
+                            </div>
+                            <h3 class="single-service-heading">MERN Development</h3>
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <div class="single-service-wrapper">
+                            <div class="service-icon">
+                                <div class="service-icon-wrapper" style="background: #e2fcef;">
+                                    <i class="bx bxl-react" style="color:#00ce67"></i>
+                                </div>
+                            </div>
+                            <h3 class="single-service-heading">MEAN Development</h3>
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <div class="single-service-wrapper">
+                            <div class="service-icon">
+
+                                <div class="service-icon-wrapper" style="background: #fef4e1;">
+                                    <i class="bx bxl-wordpress" style="color:#fa9307"></i>
+                                </div>
+                            </div>
+                            <h3 class="single-service-heading">Wordpress</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+
+    <div class="container-fluid" style="margin:3% 0;">
+        <div class="row" id="Education">
+
+    <div class="container-fluid" style="margin:3% 0;" id="education">
+        <div class="row">
+
+            <div class="col-sm-12">
+                <center>
+                    <h5>MY RESUME</h5>
+                </center>
+            </div>
+            <div class="main-title">
+                <h1 style="font-family:'Roboto Slab', serif;"><i class="fa fa-graduation-cap"
+                        style="color: rgb(241, 38, 38);" aria-hidden="true"></i> Education </h1>
+            </div>
+            <section class="timeline-section">
+                <div class="timeline-items">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2018-2019</div>
+                        <div class="timeline-content w3-card-4">
+                            <h3>BUsiness Administration (BA) </h3>
+                            <p>
+                                At Great lakes University, Kisumu <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2014-2017</div>
+                        <div class="timeline-content w3-card-4">
+                            <h3>High School Education</h3>
+                            <p>
+                                Onjiko High School, Kisumu <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
 </body>
-<footer></footer>
+<footer style="background-image: url('img/footer.png');margin-top: 6%;" id="contact">
+    <div class="container-fluid" style="padding-top: 3%">
+        <div class="row">
+            <div class="col-sm-12">
+                <center>
+                    <h3 style="color: #e1f9fb;font-weight: 800;">Alex Omollo</h3>
+                </center>
+            </div>
+            <div class="col-sm-12">
+                <center>
+                    <h4 style="color: #e1f9fb;font-family: 'Montserrat', sans-serif;font-weight: 700;">
+                        Kisumu, Kenya
+                    </h4>
+                </center>
+            </div>
+            <div class="col-sm-12">
+                <center>
+                    <h4 style="color: #e1f9fb;font-family:'Roboto Slab', serif;font-weight: 700;">
+                        +254795688450 &nbsp; | &nbsp; okechalex22@gmail.com
+                    </h4>
+                </center><br>
+            </div>
+            <div class="col-sm-12">
+                <style>
+                    .media-icons a {
+                        font-size: 25px;
+                        margin: 0 10px;
+                        color: #e1f9fb;
+                    }
+                </style>
+                <div class="media-icons">
+                    <center>
+                        <a href="https://github.com/Alex-Omollo"><i class="fab fa-github"></i></a>
+
+                    </center>
+                </div> <br>
+            </div>
+            <div class="col-sm-12">
+                <center>
+                    <hr style="border: .01px solid #e1f9fb;width:70%;">
+                </center>
+            </div>
+            <div class="col-sm-12">
+                <center>
+                    <p style="color: #e1f9fb;font-family: 'Montserrat', sans-serif;font-weight: 500;">
+                        © Portfolio, All Right Reserved &nbsp; | &nbsp; Designed By Alex Omollo
+                    </p>
+                </center>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Animation -->
+<script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+<script id="rendered-js">
+    AOS.init({
+        duration: 500
+    });
+    //# sourceURL=pen.js
+</script>
+<!-- for navbar -->
+<script>
+
+    let prevScrollPos = window.pageYOffset;
+    const navbar = document.getElementById("navbar");
+    if(prevScrollPos < 1200){
+        navbar.style.top = "-65px";
+    }
+
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScrollPos > currentScrollPos) {
+            navbar.style.top = "0";
+        } else if (prevScrollPos < currentScrollPos && currentScrollPos >= 500) {
+            navbar.style.top = "0";
+        } else {
+            navbar.style.top = "-65px"; // Adjust this value to match the height of your navbar
+        }
+        prevScrollPos = currentScrollPos;
+        if(prevScrollPos < 500){
+        navbar.style.top = "-65px";
+    }
+
+    };
+
+
+
+</script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </html>
