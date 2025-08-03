@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Unbounded:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+.navbar-brand{
+  font-family: 'Yesteryear';
+  font-size: 34px;
+}
+
+.navbar{
+  background-color: white;
+  color: black;
+}
+
+.navbar-toggler{
+  border:1px solid rgb(248, 13, 40) !important;
+}
+
+.nav-link{
+  cursor: pointer;
+  font-weight: 650;
+}
+
+
+.nav-link:hover{
+  color: rgb(248, 13, 40) !important ;
+  transform: translateY(-5px);
+  transition: all 0.6s;
+}
+
+.head {
+  background-image: url(../img/head.png);
+  height: 100vh;
+}
+
+
+h1 {
+  font-family: "Unbounded", cursive;
+  color: rgb(246, 243, 239);
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Unbounded", cursive;
+  color: rgba(18, 18, 18, 0.991);
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 10px 0;
+}
+
+h3 {
+  font-family: "Unbounded", cursive;
+  color: rgb(246, 243, 239);
+}
+
+h5 {
+  font-family: "Unbounded", cursive;
+  color: rgb(248, 13, 40);
+  padding: 10px 0 0 0;
+}
+
+.typed-text {
+  font-family: "Roboto Slab", serif;
+  color: rgb(246, 243, 239);
+}
+
+a:hover {
+  COLOR: #fff;
+  TEXT-DECORATION: none;
+  font-weight: none;
+}
+
+.name {
+  padding: 15% 5% 0;
+}
+
+.img {
+  padding: 5% 5%;
+  /* width: 100vh; */
+  height: 100vh;
+}
+
+.down-btn {
+  border-radius: 28px;
+  border: none;
+  font-family: "Unbounded", cursive;
+  color: #f7f7f7;
+  font-size: 20px;
+  background: rgb(248, 13, 40);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  clear: both;
+  display: inline-block;
+  transition: all 0.8s,
+  color 0.3s 0.3s;
+}
+
+
+.down-btn:hover {
+  text-decoration: none;
+  box-shadow: 0 -50px 0 0 #10191f inset;
+}
